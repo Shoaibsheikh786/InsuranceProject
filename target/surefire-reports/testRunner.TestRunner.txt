@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: testRunner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.899 s <<< FAILURE! - in testRunner.TestRunner
+Title of your feature.Title of your scenario  Time elapsed: 0.186 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because the return value of "com.qa.factory.DriverFactory.getDriver()" is null
+	at stepDefination.DemoSteps.user_is_on_login_page(DemoSteps.java:15)
+	at ✽.user is on login page(file:///C:/Users/Hustler/eclipse-workspace/InsuranceProject/src/test/resources/Features/DemoFeature.feature:7)
+
